@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-flex">
+        <div class="card">
+            <div class="img-info">
+                <img src="https://i.postimg.cc/BZjYr1gT/notebook.png" alt="producto">
+                <p>Notebook MSI GP65</p>
+            </div>
+            <!-- Entrada de datos -->
+            <div class="input">
+                <input id="cantidad" type="number" placeholder="cantidad">
+                <input id="color" type="text" placeholder="color">
+            </div>
+            <div class="precio-btn">
+                <h2>Precio: $ <strong id="precio"></strong></h2>
+                <!-- Proceso de datos -->
+                <button onclick="calcularTotal()">calcular total</button>
+            </div>
+        </div>
+        <!-- Salida de datos -->
+        <div class="output">
+            <div>Total: $ <strong id="precio-total"></strong></div>
+            <div>Cantidad: <strong id="cantidad-productos"></strong></div>
+            <div id="colors">Color: <div id="custom-color"></div></div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

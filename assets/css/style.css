@@ -1,0 +1,85 @@
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: rgb(71, 175, 102);
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    border-radius: 2%;
+    width: 20rem;
+    /* align-items: center; */
+}
+
+.img-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card img{
+    width: 70%;
+    
+}
+
+.card p{
+    text-align: center;
+    margin: 5%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cantidad{
+    width: 55%;
+    margin: 2%;
+}
+#color{
+    width: 55%;
+    margin: 2%;
+}
+
+.card button{
+    width: 40%;
+}
+
+.precio-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+    margin-top: 0%;
+}
+
+.precio-btn h2{
+    margin: 0%;
+    margin: 4%;
+}
+
+
+
+.output{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+#colors{
+    display: flex;
+    align-items: center;
+}
+
+#custom-color{
+    
+    border: solid 2px black;
+    width: 2rem;
+    height: 2rem; 
+    border-radius: 2em;
+}
